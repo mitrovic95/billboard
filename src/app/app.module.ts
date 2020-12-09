@@ -1,3 +1,4 @@
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TooltipModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
